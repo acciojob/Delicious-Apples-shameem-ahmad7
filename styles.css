@@ -1,1 +1,94 @@
 /* your code here */
+.product {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+.photo-container {
+    position: relative;
+    width: 100%;
+}
+
+.product__photo {
+    width: 100%;
+}
+
+.photo-main {
+    width: 100%;
+    display: block;
+}
+
+.photo-album ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+.photo-album li {
+    flex: 1;
+    margin-right: 5px;
+}
+
+.photo-album li img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.price {
+    font-size: 24px;
+    color: #f00;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.variant ul{
+	display:flex;
+}
+.variant table {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.variant td {
+    padding: 5px;
+}
+
+.variant a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.variant a:hover {
+    text-decoration: underline;
+}
+
+.description {
+    margin-top: 20px;
+}
+
+.description h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.description ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.add-to-cart {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.add-to-cart:hover {
+    background-color: #c00;
+}
